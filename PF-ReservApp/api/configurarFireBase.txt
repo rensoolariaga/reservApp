@@ -1,0 +1,20 @@
+En /api, crear un archivo configFireBase.js y escribir lo siguiente:
+
+///////////////////////////////
+
+    ACA VAN LOS PARAMETROS DEL CONFIG
+
+const configFireBase = {
+  apiKey: "AIzaSyBjgUEkc1CKehd892mNxERttrQhOTx7fzg",
+  authDomain: "reservapp-83abc.firebaseapp.com",
+  projectId: "reservapp-83abc",
+  storageBucket: "reservapp-83abc.appspot.com",
+  messagingSenderId: "689521701989",
+  appId: "1:689521701989:web:1bacd9902b3cebd568c28c"
+};
+
+module.exports = {
+  configFireBase,
+};
+
+///////////////////////////////

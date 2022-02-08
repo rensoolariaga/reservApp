@@ -1,0 +1,20 @@
+.button {
+  width: 40px;
+  height: 20px;
+  font-family: "melish";
+  font-size: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: rgb(255, 189, 89);;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

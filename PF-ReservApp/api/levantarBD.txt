@@ -1,0 +1,20 @@
+Crear en el PSQL una base de datos llamada: reservapp
+
+-----------
+
+En `api` crear un archivo llamado: `.env` que tenga la siguiente forma:
+
+```
+DB_USER=usuariodepostgres
+DB_PASSWORD=passwordDePostgres
+DB_HOST=localhost
+```
+
+reemplazar: usuariodepostgres => TU Usuario
+            passwordDePostgres => TU Password
+
+
+------
+
+npm install en carpeta API.
+npm start en carpeta API.

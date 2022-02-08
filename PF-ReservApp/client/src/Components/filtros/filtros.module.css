@@ -1,0 +1,28 @@
+.body{
+  padding-top:50px;
+}
+
+.btn {
+  background-color: rgba(247, 206, 144, 1);
+  width: 100px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 8px;
+  border-radius: 7px;
+}
+
+.input {
+  border-radius: 10px;
+  width: 205px;
+  height: 30px;
+  border-width: 1px;
+  border-color: #cacaca;
+  background-color: rgb(41, 41, 41);
+  color: #cacaca;
+  font-family: "open sans";
+}
+
+.titulo {
+  color: #cacaca;
+  font-family: "open sans";
+}

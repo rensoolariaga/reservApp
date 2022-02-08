@@ -1,0 +1,87 @@
+.container {
+  background-image: url("vectorguide.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 110px auto;
+  padding-left: 40px;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "busca reserva juega";
+  justify-content: space-evenly;
+  height: 500px;
+  column-gap: -6px;
+  margin-top: 145px;
+}
+
+.cards {
+  display: flex;
+  /* margin-top: 90px; */
+  border-color: gray;
+  border-style: solid;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.titulo {
+  grid-area: titulo;
+  display: flex;
+  margin-top: 30px;
+  color: #34495e;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.busca {
+  grid-area: busca;
+  /* display: flex; */
+  border: none;
+  height: 220px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  color: #34495e;
+  margin-top: 40px;
+}
+
+.desBusca {
+  margin-top: 20px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.reserva {
+  grid-area: reserva;
+  /* display: flex; */
+  border: none;
+  height: 220px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  color: #34495e;
+  margin-top: 40px;
+}
+
+.juega {
+  grid-area: juega;
+  /* display: flex; */
+  border: none;
+  height: 220px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  color: #34495e;
+  margin-top: 40px;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: -40px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+}

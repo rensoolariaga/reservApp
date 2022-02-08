@@ -1,0 +1,29 @@
+.body{
+    background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+    min-height: 801px;
+  }
+  
+  .body::-webkit-scrollbar {
+    height: 7px;
+  }
+  
+  .body::-webkit-scrollbar {
+    border-radius: 10px;
+    background: #30353b;
+  }
+  
+  .parent{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    min-height: 710px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2;
+    max-width: 237px;
+    padding-top: 80px;
+    box-shadow: 1px 0px 10px 5px #1a1b1f;
+  }
+  .div2 { grid-area: 1 / 2 / 2 / 3;}

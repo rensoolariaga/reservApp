@@ -1,0 +1,20 @@
+.body {
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+  color: rgb(233, 233, 233);
+}
+
+.cancha {
+  height: 250px;
+  width: 350px;
+  border-radius: 12px;
+}
+.ubicacion {
+  height: 250px;
+  width: 350px;
+}
+
+.imgPosition {
+  padding-left: 580px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}

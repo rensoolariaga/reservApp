@@ -1,0 +1,90 @@
+.bgImagen {
+  background-image: url("vectorcontacto2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  margin-top: 1px;
+}
+
+.bc {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: -150px;
+}
+
+.container {
+  display: flex;
+  padding-left: 850px;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.title {
+  color: #1d3557;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form {
+  display: grid;
+  padding: 50px;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  color: #34495e;
+  border-radius: 10px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #9ca3af;
+  padding: 5px;
+  width: 280px;
+  background-color: white;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 60px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #1d3557;
+  color: #f1faee;
+  font-weight: bold;
+  width: 180px;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #03182c;
+  color: #f1faee;
+}
+
+.contenedorFrase {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 270px;
+  padding-right: 780px;
+}
+
+.pregunta {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.mensaje {
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+}

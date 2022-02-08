@@ -1,0 +1,382 @@
+.color {
+  color: white;
+  text-align: left;
+}
+
+.positionLogin {
+  position: relative;
+  text-align: end;
+  right: 20px;
+  top: 10px;
+  z-index: 20px;
+}
+
+.haveAccount {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: #f5f5f5;
+  mix-blend-mode: normal;
+  
+}
+
+.login {
+  left: 200px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: rgba(247, 206, 144, 1);
+  mix-blend-mode: normal;
+  z-index: 20px;
+}
+
+.positionForm {
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.startFree {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 49px;
+  position: inherit;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+
+.sloganStart {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: -20px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  mix-blend-mode: normal;
+}
+
+.gLogBtn {
+  margin-top: 2px;
+  margin-left: 345px;
+  background-color: #f2f2f2c4;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px #1a1b1f;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.gLogBtn:hover {
+  background-color: #f2f2f2f6;
+  box-shadow: 0px 0px 10px 4px #1a1b1f;
+  transform: translateY(-0.1em);
+}
+.gLogBtn:active {
+  box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+  transform: translateY(0em);
+}
+.gFont {
+  color: #292b2f;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+}
+
+.positionHr {
+  margin-top: 0px;
+  margin-left: 191px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 2fr 1fr 2fr);
+}
+.hr1 {
+  width: 160px;
+  border-top: 3px inset #f2f2f23f;
+  border-radius: 20px;
+}
+.span {
+  padding-left: 3px;
+}
+.hr2 {
+  width: 160px;
+  border-top: 3px inset #f2f2f23f;
+  border-radius: 20px;
+}
+
+.inputs {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border-radius: 5px;
+  width: 205px;
+  height: 26px;
+  border-width: 1px;
+  border-color: #cacaca;
+  opacity: 0.4;
+  padding-left: 6px;
+}
+
+.inputs2 {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  width: 455px;
+  border-radius: 5px;
+  height: 26px;
+  border-width: 1px;
+  border-color: #cacaca;
+  opacity: 0.4;
+  padding-left: 6px;
+}
+
+.display {
+  display: inline;
+}
+
+.marginNomApe {
+  margin-right: 182px;
+}
+
+.marginCumpLoc {
+  margin-top: 0px;
+  margin-right: 13px;
+}
+
+.checkBox {
+  display: inline;
+}
+
+.checkText {
+  font-family: "Open Sans";
+  /* font-style: normal; */
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  color: #f2f2f2;
+
+  mix-blend-mode: normal;
+  display: inline;
+  padding-left: 5px;
+}
+
+.textCreate {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1a1b1f;
+
+  mix-blend-mode: normal;
+}
+
+.btn {
+  background-color: rgba(247, 206, 144, 1);
+  width: 455px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 22px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+.font {
+  margin-top: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------- 
+ESTILOS DE LA PAGINA DE USUARIO YA REGISTRADO
+*/
+
+.positionRegisterUser {
+  position: relative;
+  text-align: end;
+  right: 50px;
+  top: 10px;
+  bottom: 10px;
+}
+
+.haveNotUser {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: #f5f5f5;
+  mix-blend-mode: normal;
+}
+
+.register {
+  left: 200px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: rgba(247, 206, 144, 1);
+  mix-blend-mode: normal;
+}
+
+.positionFormUser {
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
+
+.welcome {
+  margin-top: 80px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 49px;
+  position: inherit;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  mix-blend-mode: normal;
+}
+
+.sloganWelcome {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  margin-top: -8px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  mix-blend-mode: normal;
+}
+
+.inputEmailRegister {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 350px;
+  border-width: 1px;
+  border-color: #cacaca;
+  opacity: 0.4;
+}
+
+.inputPassRegister {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 350px;
+  border-width: 1px;
+  border-color: #cacaca;
+  opacity: 0.4;
+}
+
+.singUp {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1a1b1f;
+  mix-blend-mode: normal;
+}
+
+.btnSingUp {
+  background-color: rgba(247, 206, 144, 1);
+  width: 350px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 22px;
+  margin-bottom: 66px;
+  border-radius: 7px;
+}
+
+/* .btnSingUp:hover {
+  box-shadow: 1px 1px 5px 1px rgba(247, 206, 144, 1);
+  z-index: 5px;
+} */
+
+.dropdownMenuLocation {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  width: 215px;
+  max-height: 180px;
+  overflow-y: scroll;
+
+  /* background: rgb(37,40,45); */
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+
+  /* border: 3px solid rgb(37,40,45); */
+  border: 3px linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dropdownMenuLocation::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+  /* background-color: rgb(41, 41, 41); */
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+}
+
+.dropdownMenuLocation::-webkit-scrollbar-thumb {
+  background: rgba(247, 206, 144, 1);
+  border-radius: 10px;
+}
+
+.dropdownButtonLocation {
+  cursor: pointer;
+  color: #cacaca;
+  background-color: rgba(41, 41, 41, 0);
+  /* border: 0.3px solid#cacaca73; */
+  border-radius: 3px;
+}
+
+.dropdownButtonLocation:active {
+  transform: translateY(1px);
+}
+
+.dropdownButtonLocation:hover {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  background: rgba(247, 206, 144, 1);
+}
+
+.searchProvince {
+  padding: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Open+Sans:wght@300&family=Work+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Work+Sans:wght@700&display=swap");

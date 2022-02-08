@@ -1,0 +1,59 @@
+.backgroundHome {
+  background-image: url("fondoHomeOk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth;
+  /* min-height: 422px; */
+  height: 110vh;
+
+  /* probando scroll*/
+  inset: 0 px;
+  box-sizing: border-box;
+  padding: 0 px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0 px;
+  height: 0 px;
+}
+
+.button {
+  width: 320px;
+  border: 10px;
+  margin-top: 372px;
+  margin-left: 75px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #ffc46b 0%, rgb(255, 216, 157) 100%);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: 100ms;
+  cursor: pointer;
+
+  border: 0px solid transparent;
+  overflow: hidden;
+  box-shadow: 0 1px 15px 5px rgb(0 0 0 / 12%);
+  transition: 100ms;
+}
+
+.button:hover {
+  background: #428eff;
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+
+.text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Work+Sans:wght@700&display=swap");

@@ -1,0 +1,76 @@
+.body {
+  background-image: url("https://images.unsplash.com/photo-1459865264687-595d652de67e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.groupRightBg {
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+  position: absolute;
+  width: 720px;
+  right: 60px;
+  top: 4%; 
+  height: 610px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.groupLeftBg {
+  position: absolute;
+  width: 780px;
+  left: 60px;
+  right: 60px;
+  top: 4%;
+  height: 610px;
+
+  /* top: 40px; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 12px;
+  background-image: url("https://images.unsplash.com/photo-1516731566880-919c39006c9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+}
+
+.blurbox {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 780px;
+  height: 585px;
+  height: 610px;
+  left: 60px;
+  right: 60px;
+  top: 70px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 12px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.imageLogo {
+  position: absolute;
+  top: 220px;
+  left: 70px;
+  width: 350px;
+  height: 70px;
+}
+
+.slogan {
+  position: absolute;
+  font-family: "open sans";
+  top: 280px;
+  left: 110px;
+  font-size: 30px;
+  color: rgb(233, 233, 233);
+  text-shadow: 3px 1px black;
+}
+
+.sloganLine {
+  position: absolute;
+  width: 411px;
+  height: 10px;
+  left: 219px;
+  top: 50px;
+  background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Open+Sans:wght@300&family=Work+Sans:wght@700&display=swap");
